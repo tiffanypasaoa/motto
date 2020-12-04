@@ -1,0 +1,26 @@
+#Name: Tiffany Pasaoa
+#Email: tiffany.pasaoa01@myhunter.cuny.edu
+#Asks the user for odd numbers
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+//declaring variable to hold odd number
+int n;
+//asking user for input
+cout<<"Please enter an odd number: ";
+cin>>n;
+//checking if number is odd or not
+while(n%2 != 1){
+//asking user again
+cout<<"You entered an even number."<<endl;
+cout<<"Please enter an odd number: ";
+cin>>n;
+}
+//display result
+cout << "Your odd number is: " <<n<< endl;
+return 0;
+}
